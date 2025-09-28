@@ -12,7 +12,7 @@ Everything is done in a single, editable Jupyter notebook.
 
 ## 📁 Contents
 
-* **`CIDM_LD1_P1_to_P3_FINAL.ipynb`** — main notebook with:
+* **`CIDM Lab 1.ipynb`** — main notebook with:
 
   * **Robust data loading** via an upward-search helper (`find_file_upwards`) for:
 
@@ -68,7 +68,7 @@ It will search in the current directory and upward through parent folders. You c
 pip install -U pandas numpy scikit-learn matplotlib
 
 # 2) Open the notebook
-jupyter notebook CIDM_LD1_P1_to_P3_FINAL.ipynb
+jupyter notebook "CIDM Lab 1.ipynb"
 # Run cells top-to-bottom
 ```
 
@@ -99,4 +99,3 @@ jupyter notebook CIDM_LD1_P1_to_P3_FINAL.ipynb
   [https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified](https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified)
 
 ---
-
