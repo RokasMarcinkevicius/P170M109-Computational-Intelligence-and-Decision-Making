@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04462244-728d-48e9-9d96-c76739ba5034" name="Changes" comment="Update lab 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RokasMarcinkevicius&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RokasMarcinkevicius/P170M109-Computational-Intelligence-and-Decision-Making.git&quot;,
+    &quot;accountId&quot;: &quot;f72afe1d-5180-4e7c-a24e-df534e7990d7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="33KMsm7XrdMOcio4q5XKmHuIuFC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab 2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04462244-728d-48e9-9d96-c76739ba5034" name="Changes" comment="" />
+      <created>1759061519724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759061519724</updated>
+      <workItem from="1759062049033" duration="1726000" />
+      <workItem from="1759063799005" duration="49000" />
+      <workItem from="1759063858228" duration="99000" />
+      <workItem from="1759064019830" duration="87000" />
+      <workItem from="1759064132726" duration="519000" />
+      <workItem from="1759095051453" duration="107000" />
+      <workItem from="1759095168619" duration="6454000" />
+      <workItem from="1759766406840" duration="4024000" />
+      <workItem from="1760535949005" duration="113000" />
+      <workItem from="1760536116534" duration="892000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update README to reflect notebook name change to &quot;CIDM Lab 1.ipynb&quot;">
+      <option name="closed" value="true" />
+      <created>1759095280866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759095280866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Laboratory work 2. ANN. Image Classification. Object Detection and Image Segmentation">
+      <option name="closed" value="true" />
+      <created>1759767720801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759767720801</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Team Project">
+      <option name="closed" value="true" />
+      <created>1759768101897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759768101897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add dataset">
+      <option name="closed" value="true" />
+      <created>1759769087320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759769087320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update team project">
+      <option name="closed" value="true" />
+      <created>1759769788590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759769788590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update lab 1">
+      <option name="closed" value="true" />
+      <created>1760536008020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760536008020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README to reflect notebook name change to &quot;CIDM Lab 1.ipynb&quot;" />
+    <MESSAGE value="Add Laboratory work 2. ANN. Image Classification. Object Detection and Image Segmentation" />
+    <MESSAGE value="Add Team Project" />
+    <MESSAGE value="Add dataset" />
+    <MESSAGE value="Update team project" />
+    <MESSAGE value="Update lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update lab 1" />
+  </component>
+</project>
