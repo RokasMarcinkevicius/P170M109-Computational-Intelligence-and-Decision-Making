@@ -1,0 +1,12 @@
+# Replace the paths below with your actual dataset roots.
+# images/train and images/val must contain your training/validation JPG/PNG files.
+# labels/* must contain YOLO TXT annotations with the same filenames as images.
+path: .
+train: images/train
+val: images/val
+test: images/test
+
+# List class names here in order. Example:
+names:
+  - classA
+  - classB

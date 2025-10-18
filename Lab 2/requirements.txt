@@ -1,0 +1,10 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.1
+matplotlib>=3.6
+seaborn>=0.12
+tqdm>=4.66
+# For Part 2 (classification) and Part 3 (detection/segmentation), install separately as needed:
+# torch
+# torchvision
+# ultralytics
