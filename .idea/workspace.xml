@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04462244-728d-48e9-9d96-c76739ba5034" name="Changes" comment="Update lab 1" />
+    <list default="true" id="04462244-728d-48e9-9d96-c76739ba5034" name="Changes" comment="Update lab 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 2/CIDM Lab 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 2/CIDM Lab 2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 2/data_od/data.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,20 +49,25 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/rokas/Documents/KTU AI Masters/P170M109-Computational-Intelligence-and-Decision-Making/Lab 2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab 2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Lab 2" />
     </key>
@@ -87,7 +97,7 @@
       <workItem from="1759095168619" duration="6454000" />
       <workItem from="1759766406840" duration="4024000" />
       <workItem from="1760535949005" duration="113000" />
-      <workItem from="1760536116534" duration="892000" />
+      <workItem from="1760536116534" duration="16670000" />
     </task>
     <task id="LOCAL-00001" summary="Update README to reflect notebook name change to &quot;CIDM Lab 1.ipynb&quot;">
       <option name="closed" value="true" />
@@ -137,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760536008020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update lab 2">
+      <option name="closed" value="true" />
+      <created>1760812107345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760812107345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +168,7 @@
     <MESSAGE value="Add dataset" />
     <MESSAGE value="Update team project" />
     <MESSAGE value="Update lab 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update lab 1" />
+    <MESSAGE value="Update lab 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update lab 2" />
   </component>
 </project>

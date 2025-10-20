@@ -1,4 +1,4 @@
-# CIDM Lab 2 Package (Final)
+# CIDM Lab 2 Package
 
 This package contains a **ready-to-run** notebook and templates to satisfy **all LD2 requirements**:
 
@@ -49,3 +49,78 @@ jupyter notebook "CIDM_Lab2_Final.ipynb"
 - **MAPE** handles divide-by-zero via masking.
 - **No data leakage:** scalers/OHE are fit on train only via `ColumnTransformer`.
 - **Same split** across baselines and ANN for fair comparison.
+
+
+## Repository Structure
+
+```
+cidm_lab2_improved/
+├── data_classification/
+│   ├── train/
+│   │   ├── classA/  (red square images)
+│   │   └── classB/  (blue circle images)
+│   ├── val/
+│   │   ├── classA/
+│   │   └── classB/
+│   └── test/
+│       ├── classA/
+│       └── classB/
+├── data_object_detection/
+│   ├── images/
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── test/
+│   ├── labels/
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── test/
+│   └── data.yaml
+├── notebooks/
+│   └── (place your Jupyter notebooks here)
+├── classification_task.py
+└── README.md
+```
+
+### Classification Dataset
+
+The classification dataset is deliberately simple: **Class A** consists of
+images containing a red square on a white background, and **Class B**
+contains images with a blue circle.  There are 10 training images, 1
+validation image and 1 test image per class.  You can easily add more
+variety by creating additional images or introducing noise/rotation to the
+shapes.
+
+### Object Detection Dataset
+
+The detection dataset reuses a similar idea.  Each image contains exactly
+one shape (either a red square or a blue circle).  The corresponding label
+files in `labels/` contain a single line with the format:
+
+```
+<class_id> <x_center> <y_center> <width> <height>
+```
+
+All coordinates are normalised to the range [0, 1], which is the format
+expected by YOLOv8.  The `data.yaml` file configures the names of the
+classes and the relative paths to the images and labels; it can be passed
+directly to the Ultralytics CLI for training or evaluation.
+
+## Baseline Models and Metrics
+
+The script [`classification_task.py`](classification_task.py) provides a
+complete example of loading tabular data from a CSV file, performing
+preprocessing, training several baseline regression models (K‑Nearest
+Neighbours, Decision Tree, Random Forest) and evaluating them.  The
+following metrics are reported:
+
+| Metric | Description | Interpretation |
+|---|---|---|
+| **MAE (Mean Absolute Error)** | The average absolute difference between actual and predicted values. | Lower values indicate more accurate predictions. |
+| **MAPE (Mean Absolute Percentage Error)** | The average absolute percentage difference; insensitive to scale. | Lower values (closer to 0%) are better. |
+| **RMSE (Root Mean Squared Error)** | Square root of the average squared error; penalises large errors. | Lower values indicate better fit, but units remain in the original scale. |
+| **R² (Coefficient of Determination)** | Proportion of target variance explained by the model. | Values closer to 1 indicate that the model explains most of the variability. |
+
+The accompanying code defines helper functions `mape_masked`, `rmse`, and
+`train_and_evaluate_model` to make these calculations explicit.  All
+functions and sections are annotated with docstrings and inline comments so
+that you can learn from reading the code itself.

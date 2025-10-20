@@ -1,0 +1,10 @@
+# Configuration file for YOLOv8 detection dataset
+path: .
+train: images/train
+val: images/val
+test: images/test
+
+# Class names; index must correspond to label IDs
+names:
+  0: classA
+  1: classB
