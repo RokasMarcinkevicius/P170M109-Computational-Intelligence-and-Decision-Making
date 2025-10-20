@@ -1,0 +1,4 @@
+path: /Users/rokas/Documents/KTU AI Masters/P170M109-Computational-Intelligence-and-Decision-Making/Lab 2/data_object_detection
+train: /Users/rokas/Documents/KTU AI Masters/P170M109-Computational-Intelligence-and-Decision-Making/Lab 2/data_object_detection/images/train
+val: /Users/rokas/Documents/KTU AI Masters/P170M109-Computational-Intelligence-and-Decision-Making/Lab 2/data_object_detection/images/val
+names: ['classA','classB']
